@@ -44,7 +44,7 @@ Color Vision::saveColor(){
 
         //Filters
         blur(image, filteredImage, Size(10,5));
-        //GaussianBlur(image, filteredImage, Size(10, 5), 0, 0 );
+        //GaussianBlur(image, filteredImage, Size(20, 10), 0, 0 );
 
         imshow("Camera", filteredImage); 
         moveWindow("Camera", 0, 0);  
